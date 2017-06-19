@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="freecalculator.giovann.wah.freecalc.SlideButtonFragment">
+
+        <TableLayout
+            android:id="@+id/slideTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TableRow
+                android:id="@+id/slideTableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/slideTableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </TableRow>
+        </TableLayout>
+</FrameLayout>

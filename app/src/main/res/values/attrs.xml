@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CalculatorScreen">
+        <attr name="bigTextSize" format="integer" />
+        <attr name="smallTextSize" format="integer" />
+        <attr name="bigTextColor" format="color" />
+        <attr name="smallTextColor" format="color" />
+        <attr name="answerColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+</resources>
